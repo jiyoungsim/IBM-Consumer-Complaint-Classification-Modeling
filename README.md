@@ -6,4 +6,4 @@ Class group project for Practicum in Large Scale Data in collaboration with IBM
   + Achieved accuracy of 72% and weighted average of f1 of 71% classifying submission issues into 47 categories.
   + Full analysis of the project including results from additional models and further steps for possible improvements can be found in presentation slides.
 
-The data used for this project come from [Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/).
+The data used for this project come from [Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/). The model was trained and tested in Google Colab GPU using the same lines of code.
