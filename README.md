@@ -1,5 +1,5 @@
 # IBM-Consumer-Complaint-Classification-Modeling
-Class group project for Practicum in Large Scale Data in collaboration with IBM
+Class project for Practicum in Large Scale Data in collaboration with IBM
 
   + Collaborated with IBM to conduct Natural Language Processing project using Consumer Complaint Database as class project.
   + Built bidirectional LSTM model in Python to predict product categories of complaints on consumer financial products.
