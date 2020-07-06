@@ -1,4 +1,4 @@
-# IBM-Consumer-Complaint-Classification-Modeling
+# IBM Consumer Complaint Classification Modeling
 + **Team Members**
   + Young Sim
   + Ruowang Li
