@@ -50,7 +50,7 @@ proj/
 ├── data/ data used in the analysis. 
 ├── doc/ report, presentation files, and final deliverables.
 ├── figs/ figures.
-└──  lib/ notebooks for preprocessing.
+└── lib/ notebooks for preprocessing.
 ```
 
 Please see each subfolder for a README file.
