@@ -1,4 +1,4 @@
-# IBM-Consumer-Complaint-Classification-Modeling
+# IBM Consumer Complaint Classification Modeling
 ### Doc folder
 
 The doc folder contains final deliverables of the project. The model was trained and tested in Google Colab GPU using the same notebook.
