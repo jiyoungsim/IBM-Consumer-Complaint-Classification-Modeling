@@ -11,7 +11,9 @@ Only individual work on LSTM model has been included in this repository. Full an
 
 + **Objectives**: The goal of this project is to build a classification model that can triage complaint narratives on consumer financial products to departments in charge. The model contributes to simplification of complaint submission process.
 
-+ **Summary**: In this project, we conducted natural language processing and classification modeling using Consumer Complaint Database in collaboration with IBM. As seen below, the complaint narratives are submitted by consumers through a form that require many steps. The purpose of the project is to save clients from tedious trouble-shooting forms and improve user experience. See project notebook/slides for more details.
++ **Summary**: In this project, we conducted natural language processing and classification modeling using Consumer Complaint Database in collaboration with IBM.  See project notebook/slides for more details.
+
+As seen below, the complaint narratives are submitted by consumers through a form that require many steps. The purpose of the project is to save clients from tedious trouble-shooting forms and improve user experience.
   
   <img src="figs/submission_form.png" width="600">
   <img src="figs/before.png" width="600">
