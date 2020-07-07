@@ -5,11 +5,13 @@
   + Yuchen Xu
   + Xian Qu
   
++ **Keywords: Classification, Prediction Modeling, Natural Language Processing, Deep Learning, LSTM, Python**
+  
 Only individual work on LSTM model has been included in this repository. Full analysis of the project including results from additional models can be found in presentation slides.
 
 + **Objectives**: The goal of this project is to build a classification model that can triage complaint narratives on consumer financial products to departments in charge. The model contributes to simplification of complaint submission process.
 
-+ **Summary**: In this project, we conducted natural language processing and classification modeling using Consumer Complaint Database in collaboration with IBM. As seen below, the complaint narratives are submitted by consumers through a form that require many steps. The purpose of the project is to save clients from tedious trouble-shooting forms and improve user experience.
++ **Summary**: In this project, we conducted natural language processing and classification modeling using Consumer Complaint Database in collaboration with IBM. As seen below, the complaint narratives are submitted by consumers through a form that require many steps. The purpose of the project is to save clients from tedious trouble-shooting forms and improve user experience. See project notebook/slides for more details.
   
   <img src="figs/submission_form.png" width="600">
   <img src="figs/before.png" width="600">
@@ -38,9 +40,6 @@ Only individual work on LSTM model has been included in this repository. Full an
   +	Cleaned and preprocessed text data using nltk module and pretrained FastText word vectors.
   +	Built a bidirectional LSTM model in Python and achieved accuracy of 74% and weighted average of f1 of 72%, classifying submission issues into 47 categories.
   +	Presented purpose, results, and suggestions for improvement of the project to convey business value of the model.
-
-
-+ **Keywords: Classification, Prediction Modeling, Natural Language Processing, Deep Learning, LSTM, Python**
 
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
