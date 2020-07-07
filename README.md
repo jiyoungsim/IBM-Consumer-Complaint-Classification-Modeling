@@ -13,28 +13,28 @@ Only individual work on LSTM model has been included in this repository. Full an
 
 + **Summary**: In this project, we conducted natural language processing and classification modeling using Consumer Complaint Database in collaboration with IBM.  See project notebook/slides for more details.
 
-As seen below, the complaint narratives are submitted by consumers through a form that require many steps. The purpose of the project is to save clients from tedious trouble-shooting forms and improve user experience.
-  
-  <img src="figs/submission_form.png" width="600">
-  <img src="figs/before.png" width="600">
-  <img src="figs/after.png" width="600">
+  As seen below, the complaint narratives are submitted by consumers through a form that require many steps. The purpose of the project is to save clients from tedious trouble-shooting forms and improve user experience.
 
-  Thus for the purpose of our model, we only used complaint narratives as features and sub-product category as target.
+    <img src="figs/submission_form.png" width="600">
+    <img src="figs/before.png" width="600">
+    <img src="figs/after.png" width="600">
 
-  <img src="figs/imbalanced.png" width="600">
+    Thus for the purpose of our model, we only used complaint narratives as features and sub-product category as target.
 
-  The number of complaints per the 47 sub-product categories is imbalanced. So we used weighted F1 score in addition to accuracy for evaluation.
+    <img src="figs/imbalanced.png" width="600">
 
-  <img src="figs/lstm.png" width="600">
-  
-  To train LSTM with open source pre-trained word vectors (fasttext provided by Facebook) implemented, we first tokenize and lemmatize narratives, and fit the model on the processed data. Weights for words not included in the pre-trained vectors were set to zero. With 3 epochs trained, the model achieved accuracy of 74% and weighted F1 of 72%. More than 50% of the the words from our data were not included in the pretrained data. That is, The model achieved the performance with less than 50% of the data. So there is a big room to grow with some modifications, such as using other pretrained data that works better for our purpose.
-  
-  + Future works for improvements:
-    + Provide more training for LSTM model
-    + Find other pre-trained data that works better for our purpose
-    + Imbalanced data: apply techniques like oversampling / SMOTE
-    + Automate updates for obsolete data and retraining
-    + Update categories by issues/sub-issues
+    The number of complaints per the 47 sub-product categories is imbalanced. So we used weighted F1 score in addition to accuracy for evaluation.
+
+    <img src="figs/lstm.png" width="600">
+
+    To train LSTM with open source pre-trained word vectors (fasttext provided by Facebook) implemented, we first tokenize and lemmatize narratives, and fit the model on the processed data. Weights for words not included in the pre-trained vectors were set to zero. With 3 epochs trained, the model achieved accuracy of 74% and weighted F1 of 72%. More than 50% of the the words from our data were not included in the pretrained data. That is, The model achieved the performance with less than 50% of the data. So there is a big room to grow with some modifications, such as using other pretrained data that works better for our purpose.
+
+    + Future works for improvements:
+      + Provide more training for LSTM model
+      + Find other pre-trained data that works better for our purpose
+      + Imbalanced data: apply techniques like oversampling / SMOTE
+      + Automate updates for obsolete data and retraining
+      + Update categories by issues/sub-issues
 
 
 + **Contributions**:
